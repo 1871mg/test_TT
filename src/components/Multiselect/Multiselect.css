@@ -1,0 +1,73 @@
+.multiselect {
+    max-width: 400px;
+    position: relative;
+}
+
+.multiselect_wrap {
+    border: solid 1px steelblue;
+    border-radius: 4px;
+    display: flex;
+    cursor: pointer;
+    height: 2em;
+    line-height: 2em;
+}
+.multiselect_wrap:hover {
+    border: solid 1px deepskyblue;
+}
+
+.multiselect_arrow {
+    margin-left: auto;
+    color: steelblue;
+    width: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.multiselect_arrow:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+.multiselect_input {
+    font-size: 16px;
+    border: solid 1px transparent;
+    background-color: transparent;
+    flex: 1;
+}
+
+.multiselect_menu {
+    position: absolute;
+    width: 100%;
+    background: whitesmoke;
+}
+
+.multiselect_item {
+    padding: 0 0 0 10px;
+}
+.multiselect_item:hover {
+    color: white;
+    background: deepskyblue;
+}
+
+input {
+    outline: none;
+    padding: 0 0 0 10px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 16px;
+    color: steelblue;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 16px;
+    color: steelblue;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 16px;
+    color: steelblue;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 16px;
+    color: steelblue;
+}

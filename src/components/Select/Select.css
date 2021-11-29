@@ -1,0 +1,56 @@
+.select {
+    max-width: 400px;
+    position: relative;
+}
+
+.select_wrap {
+    border: solid 1px steelblue;
+    border-radius: 4px;
+    display: flex;
+    cursor: pointer;
+}
+.select_wrap:hover {
+    border: solid 1px deepskyblue;
+}
+
+.select_arrow {
+    margin-left: auto;
+    color: steelblue;
+    width: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.select_arrow:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+.select_menu {
+    position: absolute;
+    width: 100%;
+    background: whitesmoke;
+    z-index: 1;
+}
+
+.select_item {
+    cursor: pointer;
+    padding: 0 0 0 10px;
+}
+.select_item:hover {
+    color: white;
+    background: deepskyblue;
+    padding: 0 0 0 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+.label {
+    height: 2em;
+    line-height: 2em;
+    padding: 0 0 0 10px;
+}
+
